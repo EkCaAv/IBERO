@@ -15,7 +15,7 @@ public class Login implements Task {
     }
     @Override
     public <T extends Actor> void performAs(T actor){
-        actor.attemptsTo(Click.on(JoinRegistrerPage.LOGIN_BUTTON)
+        actor.attemptsTo(Click.on(JoinRegistrerPage.LOGIN_BUTTON_TYPE)
         );
 
     }

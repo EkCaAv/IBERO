@@ -4,6 +4,7 @@ import co.com.choucair.certification.jointoday.userinterface.SearchRegisterJoinP
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.questions.Text;
+import net.serenitybdd.screenplay.questions.Number;
 
 public class Answer implements Question<Boolean> {
     private String question;
