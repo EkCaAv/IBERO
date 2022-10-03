@@ -1,0 +1,18 @@
+<rdf:RDF  
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:distance="http://www.distance.com/xml/rdf#" xml:base="http://www.distance.com/xml/rdf"> 
+<rdf:Description rdf:about="http://www.distance.com/xml/rdf#A"> 
+<distance:hasCoordinate> 
+<rdf:Description distance:x="1" distance:y="2" /> 
+</distance:hasCoordinate> 
+</rdf:Description> 
+<rdf:Description rdf:about="http://www.distance.com/xml/rdf#B"> 
+<distance:hasCoordinate> 
+<rdf:Description distance:x="4" distance:y="5" /> 
+</distance:hasCoordinate> 
+</rdf:Description> 
+<rdf:Description rdf:about="http://www.distance.com/xml/rdf#AB"> 
+<distance:distanceAB> 
+<rdf:Description distance:x="3" distance:y="3" /> 
+</distance:distanceAB> 
+</rdf:Description>  
+</rdf:RDF> 
