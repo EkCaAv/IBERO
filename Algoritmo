@@ -1,0 +1,40 @@
+import math
+import pandas as pd
+
+df = pd.DataFrame(
+    {'City': ['Buenos Aires', 'Brasilia', 'Santiago', 'Bogota', 'Caracas'],
+     'Country': ['Argentina', 'Brazil', 'Chile', 'Colombia', 'Venezuela'],
+     'Latitud': ['-58.66', '-47.91', '-70.66', '-74.08','-66.86'],
+     'Longitud':['-34.58', '-15.78','-33.45', '4.60','10.48']})
+
+
+pd.DataFrame(df)
+
+df_new = df [['City','Latitud','Longitud']] [0:2]
+cityO = df_new.City
+Lat1 = df_new.Latitud
+Lon2 = df_new.Longitud
+rowa=df_new.assign(Distancia=distancia)
+rowa
+x1 = Lat1
+y1 = Lat2
+z1 = Lat3
+x2 = Lon1
+y2 = Lon2
+z2 = Lon3
+
+valida = "Distancia entre:" + City1 + " y " + City2
+distanciar = math.sqrt((x2-x1)**2+(z2-z1)**2)
+print (valida)
+distanciar
+
+
+valida = "Distancia entre:" + City1 + " y " + City3
+distancia = math.sqrt((x2-x1)**2+(y2-y1)**2)
+print (valida)
+distancia
+
+if distanciar < distancia:
+    print("mayor")
+else : 
+    print("Distancia entre:" + City1 + " y " + City2 + "Es la menor distancia")
